@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-05 09:01 UTC  
+**Report generated:** 2026-02-05 09:50 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `41ec49a` | likebi | 2026-02-05 17:49:45 | feat: add dropdown toggles, customer gating, and stock/invoice validation fixes |
 
 | `878ac1f` | qchu0005 | 2026-02-05 17:00:31 | Update activity-feed.yml |
 
@@ -66,8 +68,6 @@
 | `8efd239` | likebi | 2026-02-05 11:24:25 | Refactor terminology from "Sales Man" to "Salesman" across multiple components f |
 
 | `47d1b40` | qchu0005 | 2026-02-05 11:24:16 | changed this quarter and the grid length for invoice table |
-
-| `4f57d9b` | ziyao | 2026-02-05 09:48:35 | Update constants.js |
 
 
 ---
