@@ -19,15 +19,17 @@ jobs:
           token: ${{ secrets.DASHBOARD_TOKEN }}
           ref: main
 
-      # Merge frontend and backend feeds into index.html
-      - name: Merge frontend and backend feeds
+       # Merge frontend and backend feeds using template
+      - name: Generate merged index.html
         run: |
-          echo "<html><body style='font-family:Arial;max-width:800px;margin:auto;padding:40px'><h1>🚀 Project Activity Feed</h1>" > index.html
-          echo "<div><h2>Frontend</h2>" >> index.html
-          cat frontend.html >> index.html
-          echo "</div><hr><div><h2>Backend</h2>" >> index.html
-          cat backend.html >> index.html
-          echo "</div></body></html>" >> index.html
+          # Read frontend and backend commit lists
+          FRONTEND=$(cat frontend.html)
+          BACKEND=$(cat backend.html)
+
+          # Replace placeholders in template
+          sed -e "s|{{FRONTEND_COMMITS}}|$FRONTEND|g" \
+              -e "s|{{BACKEND_COMMITS}}|$BACKEND|g" \
+              .github/templates/activity-template.html > index.html
 
       # Commit and push merged index with timestamp
       - name: Commit and push merged index
