@@ -1,0 +1,32 @@
+name: Merge Frontend + Backend Activity Feed
+
+on:
+  workflow_run:
+    workflows: ["Publish Frontend Activity Feed", "Publish Backend Activity Feed"]
+    types:
+      - completed
+
+jobs:
+  merge-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+
+      - name: Merge frontend and backend feeds
+        run: |
+          echo "<html><body style='font-family:Arial;max-width:800px;margin:auto;padding:40px'><h1>🚀 Project Activity Feed</h1>" > index.html
+          echo "<div><h2>Frontend</h2>" >> index.html
+          cat frontend.html >> index.html
+          echo "</div><hr><div><h2>Backend</h2>" >> index.html
+          cat backend.html >> index.html
+          echo "</div></body></html>" >> index.html
+
+      - name: Commit and push merged index
+        run: |
+          git config user.name "activity-bot"
+          git config user.email "bot@github.com"
+          git add index.html
+          git commit -m "Update merged activity feed" || echo "No changes"
+          git push
