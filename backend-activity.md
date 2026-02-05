@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-05 09:07 UTC  
+**Report generated:** 2026-02-05 10:21 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `d067929` | JunKhang\Khang | 2026-02-05 18:21:10 | fix create quotation wont put customer id / BRN |
 
 | `745f230` | qchu0005 | 2026-02-05 17:07:23 | Update activity-feed.yml |
 
@@ -45,7 +47,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **13 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **14 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
