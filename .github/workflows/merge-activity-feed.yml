@@ -1,10 +1,11 @@
 name: Merge Frontend + Backend Activity Feed
 
 on:
-  workflow_run:
-    workflows: ["Publish Frontend Activity Feed", "Publish Backend Activity Feed"]
-    types:
-      - completed
+  push:
+    branches: [ main ]       # or whatever branch the public repo uses
+    paths:
+      - frontend.html
+      - backend.html
 
 jobs:
   merge-feeds:
