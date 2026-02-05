@@ -32,5 +32,8 @@ jobs:
           git config user.name "activity-bot"
           git config user.email "bot@github.com"
           git add index.html
-          git commit -m "Update merged activity feed" || echo "No changes"
+          
+          # Commit with timestamp
+          git commit -m "Update merged activity feed ($(date '+%Y-%m-%d %H:%M:%S'))" || echo "No changes"
+
           git push
