@@ -30,7 +30,13 @@ jobs:
         run: |
           git config user.name "activity-bot"
           git config user.email "bot@github.com"
+          
+          # Ensure we are on main branch
+          git checkout main
+          
           git add index.html
           git commit -m "Update merged activity feed" || echo "No changes"
-          git push https://x-access-token:${DASHBOARD_TOKEN}@github.com/qchu0005/public-page.git
+          
+          # Push using the PAT
+          git push https://x-access-token:${DASHBOARD_TOKEN}@github.com/qchu0005/public-page.git main
 
