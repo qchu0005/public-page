@@ -25,9 +25,12 @@ jobs:
           echo "</div></body></html>" >> index.html
 
       - name: Commit and push merged index
+        env:
+          DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
         run: |
           git config user.name "activity-bot"
           git config user.email "bot@github.com"
           git add index.html
           git commit -m "Update merged activity feed" || echo "No changes"
-          git push
+          git push https://x-access-token:${DASHBOARD_TOKEN}@github.com/qchu0005/public-page.git
+
