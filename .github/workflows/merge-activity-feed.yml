@@ -12,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout public repo with PAT
       - name: Checkout public repo with PAT
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.DASHBOARD_TOKEN }}  # <-- this ensures pushes are authenticated
+          token: ${{ secrets.DASHBOARD_TOKEN }}
           ref: main
 
+      # Merge frontend and backend feeds into index.html
       - name: Merge frontend and backend feeds
         run: |
           echo "<html><body style='font-family:Arial;max-width:800px;margin:auto;padding:40px'><h1>🚀 Project Activity Feed</h1>" > index.html
@@ -27,13 +29,11 @@ jobs:
           cat backend.html >> index.html
           echo "</div></body></html>" >> index.html
 
+      # Commit and push merged index with timestamp
       - name: Commit and push merged index
         run: |
           git config user.name "activity-bot"
           git config user.email "bot@github.com"
           git add index.html
-          
-          # Commit with timestamp
           git commit -m "Update merged activity feed ($(date '+%Y-%m-%d %H:%M:%S'))" || echo "No changes"
-
           git push
