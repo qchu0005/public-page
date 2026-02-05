@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-05 09:50 UTC  
+**Report generated:** 2026-02-05 10:20 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `cdcaf7c` | JunKhang\Khang | 2026-02-05 18:20:17 | fix deposite to deposit wording |
 
 | `41ec49a` | likebi | 2026-02-05 17:49:45 | feat: add dropdown toggles, customer gating, and stock/invoice validation fixes |
 
@@ -75,7 +77,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **28 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **29 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
