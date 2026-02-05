@@ -1,35 +1,58 @@
+# --- COPY THIS FILE TO YOUR PUBLIC REPO (e.g. qchu0005/public-page) ---
+# Merge Frontend + Backend Activity Feed — uses frontend-activity.md and backend-activity.md
+
 name: Merge Frontend + Backend Activity Feed
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - frontend.html
-      - backend.html
+      - frontend-activity.md
+      - backend-activity.md
 
 jobs:
   merge-feeds:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout public repo with PAT
       - name: Checkout public repo with PAT
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DASHBOARD_TOKEN }}
           ref: main
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Generate merged index.html
         run: |
-          FRONTEND=$(cat frontend.html)
-          BACKEND=$(cat backend.html)
-      
-          awk -v f="$FRONTEND" -v b="$BACKEND" '
-            { gsub(/\{\{FRONTEND_COMMITS\}\}/, f); gsub(/\{\{BACKEND_COMMITS\}\}/, b); print }
-          ' .github/templates/activity-template.html > index.html
+          pip install --quiet markdown
+          python3 << 'PY'
+          import os
+          import markdown
 
+          def md_to_html(path, default_msg):
+              if os.path.isfile(path):
+                  with open(path, "r", encoding="utf-8") as f:
+                      return markdown.markdown(f.read(), extensions=["tables", "nl2br"])
+              return f"<p>{default_msg}</p>"
 
-      # Commit and push merged index with timestamp
+          frontend_html = md_to_html("frontend-activity.md", "No frontend activity yet.")
+          backend_html = md_to_html("backend-activity.md", "No backend activity yet.")
+
+          template_path = ".github/templates/activity-template.html"
+          with open(template_path, "r", encoding="utf-8") as f:
+              html = f.read()
+          html = html.replace("{{FRONTEND_COMMITS}}", frontend_html)
+          html = html.replace("{{BACKEND_COMMITS}}", backend_html)
+
+          with open("index.html", "w", encoding="utf-8") as f:
+              f.write(html)
+          print("index.html generated.")
+          PY
+
       - name: Commit and push merged index
         run: |
           git config user.name "activity-bot"
