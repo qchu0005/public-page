@@ -2,7 +2,7 @@ name: Merge Frontend + Backend Activity Feed
 
 on:
   push:
-    branches: [ main ]       # or whatever branch the public repo uses
+    branches: [ main ]
     paths:
       - frontend.html
       - backend.html
@@ -12,8 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout public repo
+      - name: Checkout public repo with PAT
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DASHBOARD_TOKEN }}  # <-- this ensures pushes are authenticated
+          ref: main
 
       - name: Merge frontend and backend feeds
         run: |
@@ -25,18 +28,9 @@ jobs:
           echo "</div></body></html>" >> index.html
 
       - name: Commit and push merged index
-        env:
-          DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
         run: |
           git config user.name "activity-bot"
           git config user.email "bot@github.com"
-          
-          # Ensure we are on main branch
-          git checkout main
-          
           git add index.html
           git commit -m "Update merged activity feed" || echo "No changes"
-          
-          # Push using the PAT
-          git push https://x-access-token:${DASHBOARD_TOKEN}@github.com/qchu0005/public-page.git main
-
+          git push
