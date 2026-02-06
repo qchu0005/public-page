@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-06 07:49 UTC  
+**Report generated:** 2026-02-06 08:41 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `5327a02` | likebi | 2026-02-06 16:41:27 | fix: persist contact taxable_contact when set to non-taxable (0) |
 
 | `b1e173a` | JunKhang\Khang | 2026-02-06 15:37:01 | remove transaction_issuance_date |
 
@@ -27,8 +29,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
-**Who worked on it:** Aidarazak21, JunKhang\Khang, qchu0005.  
+**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
+**Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
