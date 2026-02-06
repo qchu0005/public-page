@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 09:57 UTC  
+**Report generated:** 2026-02-06 10:24 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `5729b7e` | JunKhang\Khang | 2026-02-06 18:24:36 | fix bills transaction selection checkbox tick |
 
 | `3c8c36a` | qchu0005 | 2026-02-06 17:55:14 | update onboarding financial year to be inserted after all info has been filled |
 
@@ -59,8 +61,6 @@
 
 | `0835b54` | likebi | 2026-02-06 10:54:15 | refactor: Stock Take UI with shared Tabs and StandardModal |
 
-| `8f1e83e` | Aidarazak21 | 2026-02-06 10:04:01 | feat(onboarding): Add Business Type selection to onboarding and company profile |
-
 
 ---
 
@@ -68,7 +68,7 @@
 
 
 **What happened:** In the last 8 hours, the team made **24 update(s)** to the Develop branch. 
-**Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005, ziyao.  
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
