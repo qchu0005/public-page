@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-06 09:44 UTC  
+**Report generated:** 2026-02-06 09:59 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `16e29f0` | JunKhang\Khang | 2026-02-06 17:58:35 | fix financial report if too long value it cause error |
 
 | `2b0eaa0` | JunKhang\Khang | 2026-02-06 17:44:02 | add supplier id type and fix numeric cast when big number |
 
@@ -49,7 +51,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **15 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **16 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
