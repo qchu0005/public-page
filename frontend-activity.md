@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 06:24 UTC  
+**Report generated:** 2026-02-06 06:49 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `f447eb7` | JunKhang\Khang | 2026-02-06 14:49:34 | remove test-signup page |
 
 | `42d8f9d` | JunKhang\Khang | 2026-02-06 11:27:19 | fix icon tab on side bar in 1024px tab and remove all unused code |
 
@@ -27,7 +29,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, ziyao.  
 
 
