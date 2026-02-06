@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 07:30 UTC  
+**Report generated:** 2026-02-06 07:37 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `c1c1f11` | JunKhang\Khang | 2026-02-06 15:37:14 | remove transaction_issuance_date |
 
 | `f24bd17` | qchu0005 | 2026-02-06 15:29:38 | self service new logic |
 
@@ -35,7 +37,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
