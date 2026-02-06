@@ -13,6 +13,26 @@
 
 |--------|--------|------------|---------|
 
+| `86a9750` | ziyao | 2026-02-06 17:35:29 | added emp from payroll |
+
+| `391a722` | ziyao | 2026-02-06 16:58:37 | added assign_to field (multple selection) |
+
+| `2b01b02` | ziyao | 2026-02-06 16:23:28 | hide unused columns |
+
+| `73349f4` | ziyao | 2026-02-06 16:09:54 | delete unused code |
+
+| `8fc5ee5` | ziyao | 2026-02-06 15:33:44 | can list and can create a new job |
+
+| `cd75334` | ziyao | 2026-02-06 13:01:31 | create new set of components for job-costing only |
+
+| `af21914` | ziyao | 2026-02-06 11:59:56 | change icon |
+
+| `24af15d` | ziyao | 2026-02-05 17:29:23 | ui attempt 1 |
+
+| `e1187fb` | ziyao | 2026-02-05 16:01:54 | Update page.js |
+
+| `272301d` | ziyao | 2026-02-05 16:01:01 | created job page and added permission |
+
 | `b78daf7` | JunKhang\Khang | 2026-02-06 17:44:52 | add realtime status change in purchase self bills |
 
 | `b6efe95` | likebi | 2026-02-06 16:41:28 | fix: show correct taxable/non-taxable in contact edit after save |
@@ -43,7 +63,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **12 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **22 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
