@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 08:41 UTC  
+**Report generated:** 2026-02-06 09:45 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `b78daf7` | JunKhang\Khang | 2026-02-06 17:44:52 | add realtime status change in purchase self bills |
 
 | `b6efe95` | likebi | 2026-02-06 16:41:28 | fix: show correct taxable/non-taxable in contact edit after save |
 
@@ -34,8 +36,6 @@
 | `8f1e83e` | Aidarazak21 | 2026-02-06 10:04:01 | feat(onboarding): Add Business Type selection to onboarding and company profile |
 
 | `78ed277` | ziyao | 2026-02-06 09:54:33 | add a session error page (when fail to fetch from back end) |
-
-| `4f325c4` | ziyao | 2026-02-06 09:39:55 | added a error message , when fail to /api/auth/me |
 
 
 ---
