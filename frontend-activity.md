@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 09:45 UTC  
+**Report generated:** 2026-02-06 09:57 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `3c8c36a` | qchu0005 | 2026-02-06 17:55:14 | update onboarding financial year to be inserted after all info has been filled |
 
 | `86a9750` | ziyao | 2026-02-06 17:35:29 | added emp from payroll |
 
@@ -35,6 +37,10 @@
 
 | `b78daf7` | JunKhang\Khang | 2026-02-06 17:44:52 | add realtime status change in purchase self bills |
 
+| `54bc3cd` | qchu0005 | 2026-02-06 17:20:12 | Added delete progress and fix the select all total issue |
+
+| `9a584ff` | qchu0005 | 2026-02-06 16:44:25 | fix cashbook button and number of selected invoice |
+
 | `b6efe95` | likebi | 2026-02-06 16:41:28 | fix: show correct taxable/non-taxable in contact edit after save |
 
 | `fe93ed9` | likebi | 2026-02-06 16:02:42 | Add barcode and itemType fields to AddStockItem component; update StockItems to  |
@@ -55,15 +61,13 @@
 
 | `8f1e83e` | Aidarazak21 | 2026-02-06 10:04:01 | feat(onboarding): Add Business Type selection to onboarding and company profile |
 
-| `78ed277` | ziyao | 2026-02-06 09:54:33 | add a session error page (when fail to fetch from back end) |
-
 
 ---
 
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **22 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **24 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
