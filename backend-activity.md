@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-06 09:17 UTC  
+**Report generated:** 2026-02-06 09:44 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `2b0eaa0` | JunKhang\Khang | 2026-02-06 17:44:02 | add supplier id type and fix numeric cast when big number |
 
 | `24a2a56` | qchu0005 | 2026-02-06 17:16:53 | ensure the - item is of non-stock item type |
 
@@ -33,7 +35,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **7 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005.  
 
 
