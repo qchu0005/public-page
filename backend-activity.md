@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-06 07:22 UTC  
+**Report generated:** 2026-02-06 07:37 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,6 +13,8 @@
 
 |--------|--------|------------|---------|
 
+| `b1e173a` | JunKhang\Khang | 2026-02-06 15:37:01 | remove transaction_issuance_date |
+
 | `9eaf9fa` | qchu0005 | 2026-02-06 15:21:49 | self service new logic |
 
 | `f9fe60b` | JunKhang\Khang | 2026-02-06 11:28:03 | remove unused code |
@@ -23,7 +25,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **2 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **3 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, qchu0005.  
 
 
