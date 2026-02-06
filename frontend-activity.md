@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-06 08:02 UTC  
+**Report generated:** 2026-02-06 08:41 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `b6efe95` | likebi | 2026-02-06 16:41:28 | fix: show correct taxable/non-taxable in contact edit after save |
 
 | `fe93ed9` | likebi | 2026-02-06 16:02:42 | Add barcode and itemType fields to AddStockItem component; update StockItems to  |
 
@@ -41,7 +43,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **11 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **12 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
