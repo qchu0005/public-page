@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-09 05:00 UTC  
+**Report generated:** 2026-02-09 06:27 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `5d27e90` | likebi | 2026-02-09 14:27:13 | feat: add loadingText prop to ConfirmDialog component |
 
 | `5e96c84` | likebi | 2026-02-09 12:52:02 | feat: add dirty check and close-without-saving confirm for edit drawers; optiona |
 
@@ -31,7 +33,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **7 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, Ee Jun Khang, JunKhang\Khang, likebi, ziyao.  
 
 
