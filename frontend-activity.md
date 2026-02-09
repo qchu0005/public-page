@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-09 08:53 UTC  
+**Report generated:** 2026-02-09 09:12 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,10 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `d13eddc` | Aidarazak21 | 2026-02-09 17:10:52 | refactor(financial-year): Remove duration selector, make end month editable |
+
+| `e5a1879` | Aidarazak21 | 2026-02-09 16:54:19 | fix(receipts): Use is_bank column to filter GL accounts instead of hardcoded cod |
 
 | `99aee6b` | JunKhang\Khang | 2026-02-09 16:53:19 | test deploy |
 
@@ -41,7 +45,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **11 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **13 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, Ee Jun Khang, JunKhang\Khang, likebi, ziyao.  
 
 
