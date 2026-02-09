@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-09 03:51 UTC  
+**Report generated:** 2026-02-09 05:00 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,9 +13,13 @@
 
 |--------|--------|------------|---------|
 
+| `5e96c84` | likebi | 2026-02-09 12:52:02 | feat: add dirty check and close-without-saving confirm for edit drawers; optiona |
+
 | `9a24b7c` | ziyao | 2026-02-09 11:51:13 | add error handleing for no access |
 
 | `e5ad2b5` | Ee Jun Khang | 2026-02-09 11:43:49 | test github action deploy |
+
+| `ddc9b83` | likebi | 2026-02-09 09:48:31 | fix: sanitize invoice description HTML to prevent XSS |
 
 | `58ddab2` | JunKhang\Khang | 2026-02-09 09:38:45 | test run github action |
 
@@ -27,8 +31,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
-**Who worked on it:** Aidarazak21, Ee Jun Khang, JunKhang\Khang, ziyao.  
+**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**Who worked on it:** Aidarazak21, Ee Jun Khang, JunKhang\Khang, likebi, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
