@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-09 06:27 UTC  
+**Report generated:** 2026-02-09 06:55 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `77e51cf` | ziyao | 2026-02-09 14:51:56 | add preview |
 
 | `5d27e90` | likebi | 2026-02-09 14:27:13 | feat: add loadingText prop to ConfirmDialog component |
 
@@ -33,7 +35,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **7 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
 **Who worked on it:** Aidarazak21, Ee Jun Khang, JunKhang\Khang, likebi, ziyao.  
 
 
