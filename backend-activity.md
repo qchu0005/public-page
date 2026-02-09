@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-09 08:56 UTC  
+**Report generated:** 2026-02-09 09:22 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `f49a4d4` | JunKhang\Khang | 2026-02-09 17:22:05 | exclude 1 md file for documentation in gitignore |
 
 | `71a2e3d` | JunKhang\Khang | 2026-02-09 16:56:31 | fix bug if same gl account code has problem on pay receipt |
 
@@ -29,7 +31,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, ziyao.  
 
 
