@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-10 03:10 UTC  
+**Report generated:** 2026-02-10 03:41 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `4283318` | JunKhang\Khang | 2026-02-10 11:41:01 | change bulk delete on cannot delete those transaction cannot delete |
 
 | `e695dac` | ziyao | 2026-02-10 11:10:04 | Finish my feature |
 
@@ -35,7 +37,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, ziyao.  
 
 
