@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-10 06:37 UTC  
+**Report generated:** 2026-02-10 09:46 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,12 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `2650b48` | likebi | 2026-02-10 17:39:26 | refactor: extract shared print CSS and align receipt print with invoice |
+
+| `aec0d18` | likebi | 2026-02-10 17:16:47 | refactor: enhance company information rendering in invoice and receipt component |
+
+| `9efc831` | likebi | 2026-02-10 17:15:53 | refactor: improve receipt and invoice rendering |
 
 | `cd2501b` | qchu0005 | 2026-02-10 14:36:29 | Unify filter bars and add unsaved-change confirm in general ledger |
 
@@ -41,16 +47,14 @@
 
 | `a15482d` | JunKhang\Khang | 2026-02-10 09:53:36 | test auto deploy |
 
-| `675ab20` | JunKhang\Khang | 2026-02-10 09:43:41 | test auto deploy |
-
 
 ---
 
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **15 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, qchu0005, ziyao.  
+**What happened:** In the last 8 hours, the team made **17 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
