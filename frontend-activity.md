@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-10 03:41 UTC  
+**Report generated:** 2026-02-10 06:37 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,18 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `cd2501b` | qchu0005 | 2026-02-10 14:36:29 | Unify filter bars and add unsaved-change confirm in general ledger |
+
+| `d31b6df` | qchu0005 | 2026-02-10 14:34:26 | Refactor sales filter bar and tweak button UI |
+
+| `109319c` | qchu0005 | 2026-02-10 14:33:44 | Detect unsaved edits & default tax CPE |
+
+| `21e6b33` | qchu0005 | 2026-02-10 14:32:36 | Include future payment/receipts in the report |
+
+| `82fad5d` | qchu0005 | 2026-02-10 14:32:11 | Standardize 'Create New' button styles |
+
+| `3e2d46a` | qchu0005 | 2026-02-10 14:29:59 | changed report date to print date |
 
 | `4283318` | JunKhang\Khang | 2026-02-10 11:41:01 | change bulk delete on cannot delete those transaction cannot delete |
 
@@ -37,8 +49,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, ziyao.  
+**What happened:** In the last 8 hours, the team made **15 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
