@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-11 06:13 UTC  
+**Report generated:** 2026-02-11 06:40 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,10 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `ef38e47` | qchu0005 | 2026-02-11 14:39:06 | self service url fix for if dev and staging |
+
+| `b5acecb` | qchu0005 | 2026-02-11 14:38:53 | ensure sales discount is in income |
 
 | `e3a80e7` | qchu0005 | 2026-02-11 11:16:32 | selfservice link |
 
@@ -31,7 +35,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, qchu0005, ziyao.  
 
 
