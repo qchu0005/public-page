@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-11 02:45 UTC  
+**Report generated:** 2026-02-11 03:17 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `e3a80e7` | qchu0005 | 2026-02-11 11:16:32 | selfservice link |
 
 | `02872d4` | JunKhang\Khang | 2026-02-11 10:45:27 | change iisnode fe logs |
 
@@ -29,7 +31,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, qchu0005, ziyao.  
 
 
