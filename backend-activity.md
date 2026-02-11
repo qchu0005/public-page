@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-11 02:36 UTC  
+**Report generated:** 2026-02-11 02:45 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `d7067cf` | qchu0005 | 2026-02-11 10:45:16 | fix url link for self service |
 
 | `5e398ac` | qchu0005 | 2026-02-11 10:36:25 | fix the self service code again |
 
@@ -25,7 +27,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **3 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
 **Who worked on it:** qchu0005, ziyao.  
 
 
