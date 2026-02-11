@@ -13,6 +13,8 @@
 
 |--------|--------|------------|---------|
 
+| `02872d4` | JunKhang\Khang | 2026-02-11 10:45:27 | change iisnode fe logs |
+
 | `d7067cf` | qchu0005 | 2026-02-11 10:45:16 | fix url link for self service |
 
 | `5e398ac` | qchu0005 | 2026-02-11 10:36:25 | fix the self service code again |
@@ -27,8 +29,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
-**Who worked on it:** qchu0005, ziyao.  
+**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
