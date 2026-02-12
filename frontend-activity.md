@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-12 08:05 UTC  
+**Report generated:** 2026-02-12 08:21 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `4c4f846` | JunKhang\Khang | 2026-02-12 16:20:55 | remove bank_name from receipt payment |
 
 | `a41d219` | JunKhang\Khang | 2026-02-12 16:04:49 | add voucher number and fix filter in voucher number settings |
 
@@ -27,7 +29,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, qchu0005.  
 
 
