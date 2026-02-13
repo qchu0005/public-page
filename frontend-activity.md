@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-02-12 08:28 UTC  
+**Report generated:** 2026-02-13 07:08 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,17 +13,7 @@
 
 |--------|--------|------------|---------|
 
-| `4c4f846` | JunKhang\Khang | 2026-02-12 16:20:55 | remove bank_name from receipt payment |
-
-| `58cb6be` | likebi | 2026-02-12 16:16:32 | refactor(frontend): receipt/cashbook layout parity, shared helpers, designer sec |
-
-| `a41d219` | JunKhang\Khang | 2026-02-12 16:04:49 | add voucher number and fix filter in voucher number settings |
-
-| `1cf67ae` | JunKhang\Khang | 2026-02-12 12:33:39 | hide bank name in salescashreceipt dialog |
-
-| `84fb3c4` | JunKhang\Khang | 2026-02-12 11:40:34 | fix bug edit receipt change cheque payment type and cheque value wont update, hi |
-
-| `62fff2e` | qchu0005 | 2026-02-12 09:03:03 | add contact code in contact report |
+| `3049cbf` | JunKhang\Khang | 2026-02-13 15:07:49 | fix purchase select all |
 
 
 ---
@@ -31,8 +21,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
+**What happened:** In the last 8 hours, the team made **1 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
