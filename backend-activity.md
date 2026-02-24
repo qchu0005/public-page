@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-02-23 10:33 UTC  
+**Report generated:** 2026-02-24 04:48 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,7 +13,7 @@
 
 |--------|--------|------------|---------|
 
-| `b346229` | likebi | 2026-02-23 18:33:11 | feat: add API endpoints for product category creation and retrieval |
+| `6c21d33` | likebi | 2026-02-24 11:58:01 | fix: improve SKU generation uniqueness check and price extraction regex |
 
 
 ---
