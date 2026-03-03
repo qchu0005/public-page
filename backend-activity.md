@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-03 09:33 UTC  
+**Report generated:** 2026-03-03 10:40 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,7 +13,11 @@
 
 |--------|--------|------------|---------|
 
+| `2f62761` | likebi | 2026-03-03 18:08:12 | feat: cost-only inventory value fallback and view-cost module |
+
 | `97e86da` | JunKhang\Khang | 2026-03-03 17:25:32 | sst matching |
+
+| `1a3cd31` | likebi | 2026-03-03 16:20:11 | feat: stock report optional dates, multi warehouse/category, and transaction_ARA |
 
 | `909e121` | qchu0005 | 2026-03-03 15:46:41 | for cron |
 
@@ -31,8 +35,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, qchu0005.  
+**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
