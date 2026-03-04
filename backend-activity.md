@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-04 08:30 UTC  
+**Report generated:** 2026-03-04 09:21 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `aff3dcb` | JunKhang\Khang | 2026-03-04 17:21:29 | fix recurring posting invoice no post to glarap |
 
 | `5c14420` | likebi | 2026-03-04 16:21:22 | fix: stock out total from MAC and validate product expiry date |
 
@@ -31,7 +33,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **7 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
