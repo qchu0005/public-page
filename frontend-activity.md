@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-04 08:30 UTC  
+**Report generated:** 2026-03-04 09:23 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,6 +13,8 @@
 
 |--------|--------|------------|---------|
 
+| `24134cb` | JunKhang\Khang | 2026-03-04 17:22:45 | change tax management view |
+
 | `9da0673` | likebi | 2026-03-04 16:25:19 | chore: update TypeScript references in next-env.d.ts to include navigation types |
 
 | `12315ae` | likebi | 2026-03-04 16:21:37 | feat: stock edit drawers, default warehouse, cost column, expiry validation |
@@ -23,8 +25,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **2 update(s)** to the Develop branch. 
-**Who worked on it:** likebi.  
+**What happened:** In the last 8 hours, the team made **3 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
