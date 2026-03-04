@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-04 06:42 UTC  
+**Report generated:** 2026-03-04 08:30 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `5c14420` | likebi | 2026-03-04 16:21:22 | fix: stock out total from MAC and validate product expiry date |
 
 | `0527ea5` | JunKhang\Khang | 2026-03-04 14:42:04 | add column to tax_sst_matching |
 
@@ -29,8 +31,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, qchu0005.  
+**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
