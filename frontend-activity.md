@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-05 07:24 UTC  
+**Report generated:** 2026-03-05 08:13 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `294a792` | likebi | 2026-03-05 16:13:03 | refactor: add useRef import to StockIn and StockOut components |
 
 | `6428d0d` | likebi | 2026-03-05 15:23:37 | feat: add SST code tax module and wire SST into stock and transactions |
 
@@ -27,7 +29,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **5 update(s)** to the Develop branch. 
 **Who worked on it:** likebi.  
 
 
