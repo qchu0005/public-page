@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 04:20 UTC  
+**Report generated:** 2026-03-06 04:49 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `d066c3d` | likebi | 2026-03-06 12:49:36 | feat: rename sst_code to service_tariff_code in UI, state, and API payloads |
 
 | `5735a1c` | likebi | 2026-03-06 12:20:25 | feat: enhance ESLint configuration with additional rule |
 
@@ -35,7 +37,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
