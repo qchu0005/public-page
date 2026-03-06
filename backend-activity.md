@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-06 08:34 UTC  
+**Report generated:** 2026-03-06 08:55 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,14 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `3364135` | JunKhang\Khang | 2026-03-06 16:54:57 | add apta tax adjustment |
+
+| `833526c` | ziyao | 2026-03-06 15:52:45 | Update route.js |
+
+| `7a25d80` | ziyao | 2026-03-05 14:38:44 | member_limit = active members + pending invitation <= number of users (sub) so i |
+
+| `a674378` | ziyao | 2026-03-05 11:22:45 | Proxies to ${baseUrl}/api/subscription?company_id=... with X-API-Key and Content |
 
 | `b9f877f` | JunKhang\Khang | 2026-03-06 16:34:30 | change sst_code to service_tariff_code |
 
@@ -37,8 +45,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
+**What happened:** In the last 8 hours, the team made **13 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
