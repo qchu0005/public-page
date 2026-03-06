@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-06 05:11 UTC  
+**Report generated:** 2026-03-06 05:14 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `e348f42` | JunKhang\Khang | 2026-03-06 13:13:49 | fix delete receipt |
 
 | `77c0bd5` | likebi | 2026-03-06 13:11:16 | feat: include service_tariff_code in product dropdown query for invoice line SST |
 
@@ -31,7 +33,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **7 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
