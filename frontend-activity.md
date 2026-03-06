@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 04:49 UTC  
+**Report generated:** 2026-03-06 06:40 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,10 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `e83ae29` | likebi | 2026-03-06 14:39:49 | feat: implement product name editing and enhance product code handling in Invoic |
+
+| `887b715` | likebi | 2026-03-06 13:11:19 | feat: add initialShowSstCodeColumn prop to transaction forms |
 
 | `d066c3d` | likebi | 2026-03-06 12:49:36 | feat: rename sst_code to service_tariff_code in UI, state, and API payloads |
 
@@ -37,7 +41,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **11 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
