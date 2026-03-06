@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 08:56 UTC  
+**Report generated:** 2026-03-06 09:41 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `8a000d8` | JunKhang\Khang | 2026-03-06 17:41:30 | add permission |
 
 | `c338c7b` | JunKhang\Khang | 2026-03-06 16:56:00 | add supplier tax adjustment and change name tarrif code |
 
@@ -45,17 +47,13 @@
 
 | `f186a61` | qchu0005 | 2026-03-06 10:13:22 | fix sst and recurring bug |
 
-| `8a4eda4` | qchu0005 | 2026-03-06 09:26:12 | bug fix |
-
-| `f9837a6` | qchu0005 | 2026-03-06 09:15:39 | fixed merge issue |
-
 
 ---
 
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **18 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **17 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
