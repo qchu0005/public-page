@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 03:12 UTC  
+**Report generated:** 2026-03-06 04:02 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,10 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `3eec47c` | likebi | 2026-03-06 12:01:05 | feat: add ESLint configuration and refine chat interface logic |
+
+| `ffff95d` | likebi | 2026-03-06 11:51:45 | fix: unsaved-changes false positives and dialog save behavior across forms |
 
 | `bd3f959` | JunKhang\Khang | 2026-03-06 10:56:49 | handle is sst recon cannot edit receipt |
 
@@ -27,8 +31,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **4 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, qchu0005.  
+**What happened:** In the last 8 hours, the team made **6 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
