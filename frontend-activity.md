@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 08:53 UTC  
+**Report generated:** 2026-03-06 08:56 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `c338c7b` | JunKhang\Khang | 2026-03-06 16:56:00 | add supplier tax adjustment and change name tarrif code |
 
 | `92e9d66` | ziyao | 2026-03-06 16:19:00 | update to show sub's info |
 
@@ -53,7 +55,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **17 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **18 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
