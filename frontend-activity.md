@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (Frontend)
 
-**Report generated:** 2026-03-06 06:40 UTC  
+**Report generated:** 2026-03-06 08:53 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,18 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `92e9d66` | ziyao | 2026-03-06 16:19:00 | update to show sub's info |
+
+| `b8a17e3` | ziyao | 2026-03-06 16:15:18 | update to receive more infos |
+
+| `4c2c495` | ziyao | 2026-03-05 14:53:32 | flow improvments |
+
+| `60227dc` | ziyao | 2026-03-05 14:37:50 | member_limit = active members + pending invitation <= number of users (sub) so i |
+
+| `323a8f1` | ziyao | 2026-03-05 11:44:48 | sub's supporting components |
+
+| `30fa504` | likebi | 2026-03-06 16:09:06 | feat: SST Service/Tariff Code rename, No-SST guards, and duplicate-tab refresh |
 
 | `e83ae29` | likebi | 2026-03-06 14:39:49 | feat: implement product name editing and enhance product code handling in Invoic |
 
@@ -41,8 +53,8 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **11 update(s)** to the Develop branch. 
-**Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
+**What happened:** In the last 8 hours, the team made **17 update(s)** to the Develop branch. 
+**Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
 **Details:** The table above lists each change with time and a short description. No technical knowledge needed—read the Message column for a quick idea of what each update does.
