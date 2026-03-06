@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-06 09:41 UTC  
+**Report generated:** 2026-03-06 10:08 UTC  
 
 **Period:** Last 8 hours  
 
@@ -13,7 +13,11 @@
 
 |--------|--------|------------|---------|
 
+| `9f5b775` | qchu0005 | 2026-03-06 18:07:49 | sst |
+
 | `83260c2` | JunKhang\Khang | 2026-03-06 17:41:21 | add permission |
+
+| `bc2997e` | qchu0005 | 2026-03-06 17:04:08 | sst changes |
 
 | `3364135` | JunKhang\Khang | 2026-03-06 16:54:57 | add apta tax adjustment |
 
@@ -31,6 +35,10 @@
 
 | `77c0bd5` | likebi | 2026-03-06 13:11:16 | feat: include service_tariff_code in product dropdown query for invoice line SST |
 
+| `9b47229` | qchu0005 | 2026-03-06 12:59:03 | sst return |
+
+| `a5b5c41` | qchu0005 | 2026-03-06 12:58:57 | recurring invoice fix |
+
 | `97c3040` | likebi | 2026-03-06 12:49:35 | feat: rename SST table and columns to service_tariff_code across API and lib |
 
 | `043ad8a` | likebi | 2026-03-06 12:20:41 | refactor: update default exports to named constants for better clarity and maint |
@@ -47,7 +55,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **14 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **18 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
