@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-06 08:55 UTC  
+**Report generated:** 2026-03-06 09:41 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `83260c2` | JunKhang\Khang | 2026-03-06 17:41:21 | add permission |
 
 | `3364135` | JunKhang\Khang | 2026-03-06 16:54:57 | add apta tax adjustment |
 
@@ -45,7 +47,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **13 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **14 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005, ziyao.  
 
 
