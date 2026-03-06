@@ -1,6 +1,6 @@
 # Code Review Summary — Develop Branch (API/Back-end)
 
-**Report generated:** 2026-03-06 08:10 UTC  
+**Report generated:** 2026-03-06 08:34 UTC  
 
 **Period:** Last 8 hours  
 
@@ -12,6 +12,8 @@
 | Commit | Author | Date (UTC) | Message |
 
 |--------|--------|------------|---------|
+
+| `b9f877f` | JunKhang\Khang | 2026-03-06 16:34:30 | change sst_code to service_tariff_code |
 
 | `f61f80d` | likebi | 2026-03-06 16:09:07 | feat: SST service tariff seeding by type, sst_type filter, and delete-in-use mes |
 
@@ -35,7 +37,7 @@
 ## Conclusion (plain English)
 
 
-**What happened:** In the last 8 hours, the team made **8 update(s)** to the Develop branch. 
+**What happened:** In the last 8 hours, the team made **9 update(s)** to the Develop branch. 
 **Who worked on it:** JunKhang\Khang, likebi, qchu0005.  
 
 
